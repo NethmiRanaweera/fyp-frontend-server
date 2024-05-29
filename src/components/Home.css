@@ -7,8 +7,9 @@
     display: block;
     position: fixed;
     width: 100vw;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .centered {

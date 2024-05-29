@@ -54,15 +54,16 @@ function Login({ login }) {
                 { }
                 <Grid item xs={12}></Grid>
 
-                <Grid item xs={10}></Grid>
-                <Grid item xs={1}>
-                    <div className="logologin"><img src="/pic/logoblue.png" alt="logo" style={{ width: '250px', height: 'auto', textAlign: 'end' }} />
-                    </div>
-                </Grid>
-
-                <Grid item xs={1}></Grid>
-
-                <Grid item xs={1}></Grid>
+                <Grid item xs={12} sx={{
+            "display":"flex",
+            "flexDirection":"row",
+            "alignContent":"end",
+            "justifyContent":"end"
+           }}> 
+                
+                <img src="/pic/logowhite.png" alt="logoa" style={{ width: '250px', height: 'auto' }} />
+                
+             </Grid> 
                 <Grid item xs={10}>
                     <div className="titlelogin"><h1>Water Quality Monitoring and Alum Dose Determining System </h1></div></Grid>
 

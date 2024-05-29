@@ -19,15 +19,16 @@ function Home() {
                 {}
 
             <Grid item xs={12}></Grid>
-            <Grid item xs={10}></Grid>
-
-            <Grid item xs={1}> 
-
-            <div className="logohome">
-
-            <img src="/pic/logowhite.png" alt="logoh" style={{ width: '250px', height: 'auto' }} />
-            </div>
-            </Grid> 
+            <Grid item xs={12} sx={{
+            "display":"flex",
+            "flexDirection":"row",
+            "alignContent":"end",
+            "justifyContent":"end"
+           }}> 
+                
+                <img src="/pic/logowhite.png" alt="logoa" style={{ width: '250px', height: 'auto' }} />
+                
+             </Grid> 
             <Grid item xs={1}></Grid></Grid>
 
             <div className="centered">
