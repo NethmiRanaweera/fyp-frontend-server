@@ -1,0 +1,160 @@
+.manualpage {
+    background-image: url('../../public/pic/ambatale.jpg');
+    opacity: 0.55;
+    z-index: -1;
+    display: flex;
+    flex: 1;
+    position: fixed;
+    height: 100vh;
+    filter: blur(5px);
+    display: block;
+    position: fixed;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centered {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    margin-top: 2px;
+}
+
+
+
+
+.titlemanual {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+    font-size: 1.3rem;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(9, 9, 87);
+    z-index: 1;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    width: 100%;
+    margin-top: 1px;
+}
+
+.container {
+    opacity: 0.5;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+}
+
+.text {
+    color: rgb(9, 9, 87);
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.or {
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+
+.texterror {
+    color: rgb(243, 37, 48);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.inputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 60px;
+    gap: 4px;
+    background: rgb(180, 175, 175);
+    border-radius: 6px;
+
+}
+
+.input input {
+    height: 40px;
+    width: 400px;
+    border: none;
+    background: transparent;
+    outline: none;
+    color: black;
+    font-size: 19px;
+}
+
+.Alumdose {
+    opacity: 0.5;
+    display: flex;
+    width: 400px;
+    height: 60px;
+    flex-direction: column;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 25px;
+    margin: auto;
+    background: linear-gradient(rgb(115, 216, 123), green);
+    padding-bottom: 0;
+    border-radius: 10px;
+    border-color: rgb(10, 94, 66);
+}
+
+.submitbutton {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: rgb(16, 84, 211);
+    width: 50%;
+    border: none;
+    height: 40px;
+    margin-top: 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.submitbutton:hover {
+    cursor: pointer;
+}
+
+.textmanual {
+    color: rgb(122, 6, 103);
+    font-size: 30px;
+    font-weight: 200;
+    
+}

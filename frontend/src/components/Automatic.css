@@ -1,0 +1,239 @@
+.automaticpage {
+    background-image: url('../../public/pic/ambatale.jpg');
+    opacity: 0.55;
+    z-index: -1;
+    display: flex;
+    flex: 1;
+    position: fixed;
+    height: 100vh;
+    filter: blur(5px);
+    display: block;
+    position: fixed;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centered {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    margin-top: 2px;
+}
+
+.compilebutton {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(113, 156, 235);
+    width: 100%;
+    border: none;
+    height: 50px;
+    margin-top: 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.compilebutton:hover {
+    cursor: pointer;
+}
+
+.titleautomatic {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: rgb(8, 8, 104);
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.titlea1 {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+   
+    font-size: 1rem;
+    color: rgb(12, 12, 102);
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    width: 100%;
+    margin-top: 6px;
+}
+
+.container {
+    opacity: 0.8;
+    display: flex;
+    width: fit-content;
+    padding: 20px;
+    margin: auto;
+    background: white;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    border-color: blue;
+    border-width: 10px;
+}
+
+
+.containerdatetime {   
+    flex-direction: row;
+    display: flex;
+    width: fit-content;  
+    padding: 20px;
+    margin: auto;
+    background: white;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+
+.container1 {
+    opacity: 0.8;
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+    background: white;
+    padding-bottom: 60px;
+    padding-top: 40px;
+    border-radius: 10px;
+}
+
+.text {
+    color: rgb(9, 9, 87);
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.inputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 60px;
+    gap: 4px;
+    background: rgb(180, 175, 175);
+    border-radius: 6px;
+
+}
+
+.input input {
+    height: 40px;
+    width: 400px;
+    border: none;
+    background: transparent;
+    outline: none;
+    color: black;
+    font-size: 19px;
+}
+
+.boxes {
+    opacity: 0.7;
+    display: flex;
+    width: 400px;
+    height: 40px;
+    flex-direction: column;
+    padding: 10px;
+    margin: auto;
+    background: linear-gradient(rgb(115, 216, 123),rgb(84, 192, 84));
+    padding-bottom: 0;
+    border-radius: 10px;
+    border-color: rgb(10, 94, 66);
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+}
+
+.boxesd {
+    opacity: 0.7;
+    display: flex;
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+    width: 300px;
+    height: 40px;
+    flex-direction: column;
+    padding: 10px;
+    margin: auto;
+    background: linear-gradient(rgb(226, 185, 224),rgb(189, 74, 189));
+    padding-bottom: 0;
+    border-radius: 10px;
+    border-color: rgb(199, 202, 8);
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.or {
+    color :black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+
+
+.Alumdose{
+    opacity: 0.7;
+    display: flex;
+    width: 400px;
+    height: 40px;
+    flex-direction: column;
+    padding: 10px;
+    margin: auto;
+    background: linear-gradient(rgb(245, 243, 162),rgb(224, 231, 13));
+    padding-bottom: 0;
+    border-radius: 10px;
+    border-color: rgb(94, 37, 10);
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 7000;
+}
+
+.contained_buttons{
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+
+   
+}
+
+/* div.link a {
+    color: white !important;
+    padding: 10px;
+    font-size: 30px;
+} */
+
+.link {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}

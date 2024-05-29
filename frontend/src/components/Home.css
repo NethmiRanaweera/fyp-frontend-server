@@ -1,0 +1,64 @@
+.homepage {
+    background-image: url('../../public/pic/ambatale.jpg');
+    opacity: 0.55;
+    z-index: -1;
+    height: 100vh;
+    filter: blur(5px);
+    display: block;
+    position: fixed;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centered {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    margin-top: 2px;
+}
+
+.logohome{
+    margin-top: 30px;
+}
+
+.contained_buttons {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+    width: 100%;
+    margin-top: 50px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: rgb(9, 9, 87);
+    /* color: rgb(250, 250, 250); */
+}
+
+
+.title1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+
+    font-size: 1.5rem;
+    color: white;
+
+
+}
