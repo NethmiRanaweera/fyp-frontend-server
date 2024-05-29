@@ -61,9 +61,10 @@ function Login({ login }) {
             "justifyContent":"end"
            }}> 
                 
-                <img src="/pic/logowhite.png" alt="logoa" style={{ width: '250px', height: 'auto' }} />
+                <img src="/pic/logoblue.png" alt="logoa" style={{ width: '250px', height: 'auto' }} />
                 
-             </Grid> 
+             </Grid>
+             <Grid item xs={1}></Grid>   
                 <Grid item xs={10}>
                     <div className="titlelogin"><h1>Water Quality Monitoring and Alum Dose Determining System </h1></div></Grid>
 
